@@ -1,3 +1,5 @@
+echo -----------------[ Booting into fastboot mode ]---------------------
+adb reboot bootloader
 echo ---------------------[ Start flashing ROM ]-------------------------
 echo ----------------[ Checking for connected devices ]------------------
 fastboot -i 0x1ebf devices 
