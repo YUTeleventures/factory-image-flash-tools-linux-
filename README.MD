@@ -1,4 +1,4 @@
-Factory Images Flashing Tool for YU YUPHORIA [UNOFFICIAL]
+Factory Images Flashing Tool for YU YUNIQUE [UNOFFICIAL]
 
 * Supports flashing factory images from Linux Based OS.
 * Prerequisite adb and fastboot tools must be installed.
