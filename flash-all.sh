@@ -13,8 +13,6 @@ echo -------------------[ Flashing system partition ]--------------------
 fastboot -i 0x1ebf flash system system.img
 echo -------------------[ Flashing data partition ]----------------------
 fastboot -i 0x1ebf flash userdata userdata.img
-echo ---------------------[ Relocking bootloader ]-----------------------
-fastboot -i 0x1ebf oem lock
 echo ---------------------[ Rebooting device ]---------------------------
 fastboot -i 0x1ebf reboot
 echo -------------------------[ ALL DONE ]-------------------------------
