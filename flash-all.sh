@@ -2,17 +2,17 @@ echo -----------------[ Booting into fastboot mode ]---------------------
 adb reboot bootloader
 echo ---------------------[ Start flashing ROM ]-------------------------
 echo ----------------[ Checking for connected devices ]------------------
-fastboot -i 0x2A96 devices
+fastboot devices
 echo -------------------[ Unlocking bootloader ]-------------------------
-fastboot -i 0x2A96 oem unlock
+fastboot oem unlock
 echo ----------------------[ Flashing kernel ]---------------------------
-fastboot -i 0x2A96 flash boot boot.img
+fastboot flash boot boot.img
 echo ----------------------[ Flashing recovery ]-------------------------
-fastboot -i 0x2A96 flash recovery recovery.img
+fastboot flash recovery recovery.img
 echo -------------------[ Flashing system partition ]--------------------
-fastboot -i 0x2A96 flash system system.img
+fastboot flash system system.img
 echo -------------------[ Flashing data partition ]----------------------
-fastboot -i 0x2A96 flash userdata userdata.img
+fastboot flash userdata userdata.img
 echo ---------------------[ Rebooting device ]---------------------------
-fastboot -i 0x2A96 reboot
+fastboot reboot
 echo -------------------------[ ALL DONE ]-------------------------------
