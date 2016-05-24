@@ -15,7 +15,7 @@ YU YUPHORIA:
 
 ## How to
 ### Steps to flash factory image
- 1. Download the YU-OPEN-OS Marshmallow factory image fastboot package for YU YUREKA from [Here](http://developer.yuplaygod.com/yuplaydev/index.php#downloads)
+ 1. Download the YU-OPEN-OS Marshmallow factory image fastboot package for YU YUPHORIA from [Here](http://developer.yuplaygod.com/yuplaydev/index.php#downloads)
 
  2. Extract the contents of the fastboot package into a folder.
 
